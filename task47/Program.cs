@@ -14,7 +14,6 @@ void SetAnArray( double[,] dimensArray)
         for (int j = 0; j < dimensArray.GetLength(1); j++)
         {
             dimensArray[i,j] = Convert.ToDouble(new Random().Next(-100, 100)) / 10;
-            //new Random().Next(1,10);
         }
     }
 }
